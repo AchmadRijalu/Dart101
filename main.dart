@@ -11,7 +11,7 @@ void main(List<String> args) {
     stdout.writeln("Options:");
     print("[1] Buy Food");
     print("[2] Shopping cart");
-    
+
     print("[3] Exit");
 
     stdout.writeln("Your choice?");
@@ -46,6 +46,7 @@ void main(List<String> args) {
             var key = i.key;
             var value = i.value;
             print("$value $key");
+
           }
         }
       } else if (userchoice == "F02") {
