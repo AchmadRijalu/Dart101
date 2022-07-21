@@ -11,6 +11,7 @@ void main(List<String> args) {
     stdout.writeln("Options:");
     print("[1] Buy Food");
     print("[2] Shopping cart");
+    
     print("[3] Exit");
 
     stdout.writeln("Your choice?");
